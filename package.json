@@ -1,0 +1,29 @@
+{
+  "name": "air-adventure-games",
+  "version": "1.0.0",
+  "description": "simple games witih javascript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "webpack": "^1.10.1"
+  },
+  "scripts": {
+  	"start": "npm run dev",
+    "dev": "webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asreds/air-adventure-games.git"
+  },
+  "keywords": [
+    "games"
+  ],
+  "author": "Asih Priyatno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asreds/air-adventure-games/issues"
+  },
+  "homepage": "https://github.com/asreds/air-adventure-games#readme"
+}
