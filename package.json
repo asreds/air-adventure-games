@@ -8,7 +8,10 @@
     "eslint": "^3.9.1",
     "eslint-config-standard": "^6.2.1",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "0.0.14",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11"
   },
   "scripts": {
     "start": "npm run dev",
