@@ -1,11 +1,18 @@
 body {
-	background: 
+	background: url('img/background.jpg') no-repeat;
+	background-size: cover;
 }
 
 #canvas {
 	width: 400px;
 	height: 500px;
-	margin: 0 auto;
+	float: left;
+}
+
+.btn-control {
+    float: left;
+    text-align: center;
+    width: 50%;
 }
 
 canvas {
