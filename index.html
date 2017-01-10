@@ -4,14 +4,18 @@
 	<title>Air Anventure Games</title>
 	<link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
-<body onload="startGame()">
+<body>
 	<div class="btn-control">
-	  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
-	  <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
-	  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
-	  <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+	  <button class='myButton' onmousedown="startGame()">Start</button>
+	  <button class='myButton' onmousedown="startGame()">Reset</button><br><br>
+	  <button class='myButton' onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
+	  <button class='myButton' onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+	  <button class='myButton' onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+	  <button class='myButton' onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
 	</div>
-	<div id="canvas" />
+	<div id="canvas">
+		<h1>Click Start Button to start game</h1>
+	</div>
 </body>
 	<script src="bundle.js"></script>
 </html>
